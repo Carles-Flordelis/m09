@@ -1,0 +1,33 @@
+Mòdul 09 – Implantació d'aplicacions web
+UF1 – Llenguatges de guions de servidors
+Pràctica 6: Arrays
+Modificar el formulari de l'exercici 3 de la pràctica 5 afegint-hi les especificacions següents:
+• Incloure un camp de text on es demani l'email de l'alumne; s'haurà de validar que s'ha
+escrit una adreça amb format vàlid. La següent pàgina proporciona informació per saber
+com validar-ho. Si el format és vàlid s'ha de mostrar per pantalla i si no, s'ha informar de
+l'error.
+https://www.php.net/manual/es/filter.examples.validation.php
+• Crear un array amb el currículum de cada curs d'ASIX. En cas que l'alumne sigui d'ASIX es
+presentarà a la segona pantalla un missatge “Estudiaràs els següents mòduls: “ seguit de
+la llista dels mòduls corresponents.
+Els índexs de l'array seran els números de l'1 al 15 i els valors els noms dels mòduls
+corresponents. Per exemple, l'element d'índex = 1 serà “M01-Sistemes operatius”.
+Per simplificar suposarem que a primer curs es fan els mòduls de l'1 al 7 i a segon curs, la
+resta. Si l'alumne fa una altra titulació no es mostra el currículum.
+Els mòduls inclosos en el currículum d'ASIX són:
+Codi mòdul Nom mòdul
+M01 Implantació de sistemes operatius
+M02 Gestió de bases de dades
+M03 Programació bàsica
+M04 Llenguatge de marques i sistemes de gestió d’informació
+M05 Fonaments de maquinari
+M06 Implantació i administració de sistemes operatius
+M07 Planificació i administració de xarxes
+M08 Serveis de xarxa i Internet
+M09 Implantació d’aplicacions web
+M10 Administració de bases de dades
+M11 Seguretat i alta disponibilitat
+M12 Formació i orientació laboral
+M13 Empresa i iniciativa emprenedora
+M14 Projecte de síntesi
+M15 Formació en centres de treball
