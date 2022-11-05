@@ -1,0 +1,52 @@
+<html>
+<form action="P5E3.php" method="post" autocomplete="off">
+  <fieldset>
+   <legend>Dades dels alumnes</legend> 
+<p>Nom: <input name="nom"> Cognoms: <input name="cognoms">
+
+<label for="cicle">Cicle:</label>
+  <select id="cicle" name="cicle">
+    <option value=""></option>
+    <option value="SMX">SMX</option>
+    <option value="ASIX">ASIX</option>
+    <option value="DAM">DAM</option>
+    <option value="DAW">DAW</option>
+  </select>
+
+<label for="curs">Curs:</label>
+  <select id="curs" name="curs">
+    <option value=""></option>
+    <option value="1">1r</option>
+    <option value="2">2n</option>
+  </select>
+<label for="grup">Grup:</label>
+  <select id="grup" name="grup">
+    <option value=""></option>
+    <option value="A">A</option>
+    <option value="B">B</option>
+    <option value="C">C</option>
+    <option value="D">D</option>
+  </select>
+</p>
+
+<p>Sexe: 
+    <input type="radio"  name="sexe" value="Home">
+    <label for="home">Home</label>
+    <input type="radio" name="sexe" value="Dona">
+    <label for="dona">Dona</label><br>
+</p>
+<p>Estudis:
+    <input type="checkbox" name="estudis[]" value="Batxillerat">
+    <label for="batx"> Batxillerat</label>
+    <input type="checkbox"  name="estudis[]" value="CFGM">
+    <label for="CFGM"> CFGM</label>
+    <input type="checkbox"  name="estudis[]" value="CFGS">
+    <label for="CFGS"> CFGS</label>
+    <input type="checkbox"  name="estudis[]" value="Altres">
+    <label for="Altres"> Altres</label><br>
+</p>
+</fieldset>
+<p align="center"><input type="submit" value="Enviar">
+<input type="reset" value="Esborrar"></p>
+</form>
+</html>
