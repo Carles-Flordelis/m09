@@ -18,6 +18,16 @@
         else
         echo "<p style='color:red';> Has d'indicar els Cognoms</p>";
 
+        #El mail
+        if( (isset($_POST["email"]) ) && (!empty($_POST["email"])) )  
+        echo "Email : ".$_POST["email"]."<br/>";
+        else
+        if (filter_var(($_POST["email"]), FILTER_VALIDATE_EMAIL)) {
+            echo "Email address '($_POST["email"])' is considered valid.\n";
+        } else {
+            echo "Email address '($_POST["email"])' is considered invalid.\n";
+        }
+        echo "<p style='color:red';> Has d'indicar un correu vàlid</p>";
         #Els estudis
         if( (isset($_POST["estudis"]) ) && (!empty($_POST["estudis"]))) {
             foreach($_POST["estudis"] as $value){
